@@ -8,4 +8,11 @@ git clone --depth=1 https://gitlab.com/Alucard_Storm/vendor_xiaomi_haydn-firmwar
 echo 'Cloning Leica camera'
 git clone --depth=1 https://gitlab.com/Alucard_Storm/haydn-miuicamera -b fourteen-leica vendor/xiaomi/haydn-miuicamera
 
+# Leica patch
+echo 'Adding Leica camera patch'
+cd frameworks/base
+wget https://raw.githubusercontent.com/Astridxx/Patch-Haydn/udc-14/Leicamera/0001-Add-backwards-compatible-CaptureResultExtras-constructor.patch
+patch -p1 <0001-Add-backwards-compatible-CaptureResultExtras-constructor.patch
+cd ../..
+
 echo 'delete vendorsetup.sh from device tree once this is done'
