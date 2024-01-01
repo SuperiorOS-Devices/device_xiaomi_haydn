@@ -1,6 +1,44 @@
 [
   {
-    "repository": "android_device_xiaomi_sm8350-common",
-    "target_path": "device/xiaomi/sm8350-common"
+    "repository": "device_xiaomi_haydn-common",
+    "target_path": "device/xiaomi/sm8350-common",
+    "branch": "fourteen",
+    "remote": "SuperiorOS-Devices"
+  },
+  {
+    "repository": "kernel_xiaomi_haydn",
+    "target_path": "kernel/xiaomi/sm8350",
+    "branch": "fourteen",
+    "remote": "SuperiorOS-Devices"
+  },
+  {
+    "repository": "vendor_xiaomi_haydn",
+    "target_path": "vendor/xiaomi/haydn",
+    "branch": "fourteen",
+    "remote": "SuperiorOS-Devices"
+  },
+  {
+    "repository": "vendor_xiaomi_haydn-common",
+    "target_path": "vendor/xiaomi/sm8350-common",
+    "branch": "fourteen",
+    "remote": "SuperiorOS-Devices"
+  },
+  {
+    "repository": "Alucard_Storm/vendor_xiaomi_haydn-firmware",
+    "target_path": "vendor/xiaomi/haydn-firmware",
+    "branch": "thirteen",
+    "remote": "gitlab"
+  },
+  {
+    "repository": "Alucard_Storm/haydn-miuicamera",
+    "target_path": "vendor/xiaomi/haydn-miuicamera",
+    "branch": "fourteen-leica",
+    "remote": "gitlab"
+  },
+  {
+    "repository": "1xtAsh/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-21",
+    "remote": "github"
   }
 ]
